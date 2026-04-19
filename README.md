@@ -105,7 +105,7 @@ shiny::runApp("app.R")
 
 ## Production Database Connection
 
-In production, live SQL data may be used. Naturally, these credentials cannot be included in this portfolio, but general steps for setting a live connection would include setting a database connection, including credentials and environment variables in an .Renviron, then replacing any read_csv() calls in app.r with dbGetQuery() calls using relevant SQL files.The rest of the application would remain unchanged.
+In production, live SQL data may be used. These credentials cannot be included in this portfolio, but general steps for setting a live connection would include setting a database connection, including credentials and environment variables in an .Renviron, then replacing any read_csv() calls in app.r with dbGetQuery() calls using relevant SQL files.The rest of the application would remain unchanged.
 
 ---
 
