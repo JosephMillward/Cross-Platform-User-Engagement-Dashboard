@@ -3,6 +3,7 @@
 An R Shiny dashboard for analysing platform engagement data from the DHS Program, a USAID-funded initiative producing population and health survey data across 90+ countries since 1984. The dashboard demonstrates end-to-end behavioral analytics: from time series visualization and event annotation through causal inference modeling of individual program events.
 
 $\color{red}{\text{Disclaimer}}$
+
 This dashboard is a portfolio demonstration built entirely on synthetic data generated to reflect the statistical properties of real program analytics without containing any proprietary, confidential, or personally identifiable information. It is not an official product of the DHS Program, Johns Hopkins University, the World Bank Group, or any affiliated organization, and does not represent, release, or reproduce any data or findings from those institutions.
 
 DHS survey publication dates are drawn from the publicly available DHS API (dhsprogram.com) and are the only real data used in this project. All engagement metrics, program events, and country-level statistics are simulated.
